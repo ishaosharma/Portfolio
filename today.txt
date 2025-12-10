@@ -1,0 +1,173 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+Swing API is an extension of java programming language by which we create desktop based application
+
+D/f b/w Junit and mockito
+use junit5 and not Junit4
+
+
+Points to add in PPT:
+1. Key Features of project
+	1. Points for user
+	2. Calendar 
+	3. Feedback sentimental analysis
+	4. Reminder System via Email
+	5. Bulletin Board for upcoming events
+	6. Mail after completion of event with its summary and photos of event. 
+2. Organizer Role Requirement
+3. Briefly explaining each module (OPTIONAL)
+4. Flowchart update add organiser role and confirm msg of logout and delete event.
+
+
+
+No sense of Registration module as jo uusme mentioned h vo already user management mein aagaya h!
+Register for Events.
+Approval/Rejection by Admin 
+
+user module:
+Login/Signup
+Profile Management
+Role based Access(Admin/User/Organiser)
+Track event registration status
+Registration history
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+index.html
+</footer>
+
+        <!-- SCROLL REVEAL JS -->
+         <script src="https://unpkg.com/scrollreveal"></script>
+
+         <!-- typed JS -->
+         <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+         <!-- main JS SECTION -->
+     <script src="main.js"></script>
+</body>
+</html>
+
+style.css
+/* IMAGE MOVING UP AND DOWN VIA KEYFRAMES CODE */
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-2.4rem); 
+    }
+    100% {
+        transform: 1.6rem;
+    }
+}
+
+
+
+main.js
+// ******************  SCROLL SECTION ACTIVE LINK  ************************
+
+// let sections = document.querySelectorAll('section');
+// let navLinks = document.querySelectorAll('header nav a');
+
+// window.onscroll = () => {
+//     sections.forEach(sec => {
+//         let top = window.scrollY;
+//         let offset = sec.offsetTop - 150;
+//         let height = sec.offsetHeight;
+//         let id = sec.getAttribute('id');
+
+//         if(top >= offset && top < offset + height) {
+//             navLinks.forEach.apply(links => {
+//                 links.classList.remove('active');
+//                 document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
+//             });
+//         };
+//     });
+
+
+    // ******************  STICKY NAVBAR  ************************
+    // let header = document.querySelector('header');
+    // header.classList.toggle('sticky', window.scrollY > 100);
+
+    // // ******************  remove toggle icon and navbar  ************************
+    // menuIcon.classList.remove('fa-xmark');
+    // navbar.classList.remove('active');
+// };
+
+    // ******************  SCROLL REVEAL  ************************
+    // ScrollReveal({ 
+    //     distance: '80px',
+    //     duration: 2000,
+    //     delay: 200,
+    // });
+
+    // ScrollReveal().reveal('.home-content, heading', { origin: 'top' });
+    // ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin: 'bottom' });
+    // ScrollReveal().reveal('.home-contact h1, .about-img', { origin: 'left' });
+    // ScrollReveal().reveal('.home-contact p, .about-content', { origin: 'right' });
+
+    // ******************  TYPED JS  ************************
+    const typed = new Typed('.multiple-text',{
+        strings: ['Trainee Programmer', 'Graduate', 'Frontend Developer'],
+        typeSpeed: 70,
+        backSpeed: 70,
+        backDelay: 1000,
+        loop: true,
+    });
+
+
+
+
+
+/**
+ * HOW I CREATED POJO CLASSES BELOW TeamMember CODE
+ * first we define the private classes of all the attributes then i will create enum
+ * as i want to give only 2 options for memberStatus which is Active and Remove so i will
+ * create public enum Status and then will create default constructor and after that i
+ * will press Alt+Insert and then alt+A to select all attributes and will press OK.
+ * Similarly I will create getter and setter will press alt+insert then select getter&setter
+ * then alt+A then press OK.
+ * similarly i will create toString method and will select toString and would select alt+A then
+ * to select all attributes and will press OK.
+ *
+ */
+
+
+
+
+and in that i am working on  feedback module and in that i want to submit feedback of events to admin. In my project there are 3 role i.e user, Admin and Organizer. ask me questions what all things you need in order to understand my project
+
+
+
+class.forName in JDBC is used for dynamic class loading at runtime
+Filter and listeners
+Documentation
+single table same name in 
